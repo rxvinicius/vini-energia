@@ -30,5 +30,5 @@ docker-compose up --build
 
 O passo a passo para rodar o frontend e o backend localmente estão em seus respectivos repositórios:
 
-- [Frontend](./frontend/README.md)
-- [Backend](./backend/README.md)
+- [Frontend](https://github.com/rxvinicius/clarke-energia-frontend)
+- [Backend](https://github.com/rxvinicius/clarke-energia-backend)
