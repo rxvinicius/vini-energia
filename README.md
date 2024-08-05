@@ -2,17 +2,26 @@
 
 Instruções para iniciar os repositórios do desafio técnico da **Clarke Energia**.
 
-- 👉 [Frontend online](https://clarke-energia-frontend.vercel.app)
-- 👉 [Backend online](https://clarke-energia-backend-8da448044f10.herokuapp.com)
+## Demo online
+
+👉 [Frontend](https://clarke-energia-frontend.vercel.app) <br>
+👉 [Backend](https://clarke-energia-backend-8da448044f10.herokuapp.com)
 
 ## Passo a passo para rodar a aplicação com Docker Compose
 
 Siga as instruções abaixo:
 
-1. Clone esse repositório e acesso a raiz do projeto:
+1. Clone esse repositório e os submódulos e acesso a raiz do projeto:
 
 ```
-git clone https://github.com/rxvinicius/clarke-energia.git && cd clarke-energia
+git clone --recurse-submodules https://github.com/rxvinicius/clarke-energia.git && cd clarke-energia
+```
+
+> IMPORTANTE: Se você já clonou o repositório sem os submódulos, você pode inicializá-los e atualizá-los usando os seguintes comandos:
+
+```
+git submodule init
+git submodule update
 ```
 
 2. Construa e inicie os serviços:
