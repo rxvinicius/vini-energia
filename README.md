@@ -17,12 +17,11 @@ Siga as instruções abaixo:
 git clone --recurse-submodules https://github.com/rxvinicius/clarke-energia.git && cd clarke-energia
 ```
 
-> Se você já clonou o repositório sem os submódulos, você pode inicializá-los e atualizá-los usando os seguintes comandos:
+> IMPORTANTE: Se você já clonou o repositório sem os submódulos, você pode inicializá-los e atualizá-los usando os seguintes comandos:
 
 ```
 git submodule init
 git submodule update
-
 ```
 
 2. Construa e inicie os serviços:
