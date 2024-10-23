@@ -1,6 +1,6 @@
 [submodule "backend"]
 	path = backend
-	url = https://github.com/rxvinicius/clarke-energia-backend.git
+	url = https://github.com/rxvinicius/vini-energia-backend.git
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/rxvinicius/clarke-energia-frontend.git
+	url = https://github.com/rxvinicius/vini-energia-frontend.git

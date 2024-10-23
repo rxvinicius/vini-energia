@@ -1,23 +1,34 @@
-# Clarke Energia
+<div align='center'>
+  <img style="width:300px;" src='./frontend/public/images/project-logo.png'/>
+</div>
 
-Instruções para iniciar os repositórios do desafio técnico da **Clarke Energia**.
+# Vini Energia
 
-## Demo online
+Este repositório contém o projeto full stack, incluindo o frontend e o backend, ambos organizados como submódulos Git. Ele também inclui arquivos de configuração para facilitar o setup do ambiente usando Docker.
 
-👉 [Frontend](https://clarke-energia-frontend.vercel.app) <br>
-👉 [Backend](https://clarke-energia-backend-8da448044f10.herokuapp.com)
+## 🌐 Links dos Ambientes e Repositórios
 
-## Passo a passo para rodar a aplicação com Docker Compose
+### Produção
+
+- **🖥️ [Frontend](https://vini-energia-frontend.vercel.app)**
+- **🛠️ [Backend](https://vini-energia-backend-production.up.railway.app)**
+
+### Repositórios no GitHub
+
+- **📂 [GitHub - Frontend Repo](https://github.com/rxvinicius/vini-energia-frontend)**
+- **📂 [GitHub - Backend Repo](https://github.com/rxvinicius/vini-energia-backend)**
+
+## 🐳 Passo a passo para rodar a aplicação com Docker Compose
 
 Siga as instruções abaixo:
 
 1. Clone esse repositório e os submódulos e acesso a raiz do projeto:
 
 ```
-git clone --recurse-submodules https://github.com/rxvinicius/clarke-energia.git && cd clarke-energia
+git clone --recurse-submodules https://github.com/rxvinicius/vini-energia.git && cd vini-energia
 ```
 
-> IMPORTANTE: Se você já clonou o repositório sem os submódulos, você pode inicializá-los e atualizá-los usando os seguintes comandos:
+> ⚠️ IMPORTANTE: Se você já clonou o repositório sem os submódulos, você pode inicializá-los e atualizá-los usando os seguintes comandos:
 
 ```
 git submodule init
@@ -35,9 +46,9 @@ docker-compose up --build
 - Frontend: http://localhost:8080
 - Backend: http://localhost:3000
 
-## Rodar a aplicação localmente
+## 💻 Executar a aplicação no ambiente de desenvolvimento
 
 O passo a passo para rodar o frontend e o backend localmente estão em seus respectivos repositórios:
 
-- [Frontend](https://github.com/rxvinicius/clarke-energia-frontend)
-- [Backend](https://github.com/rxvinicius/clarke-energia-backend)
+- [Frontend](https://github.com/rxvinicius/vini-energia-frontend)
+- [Backend](https://github.com/rxvinicius/vini-energia-backend)
