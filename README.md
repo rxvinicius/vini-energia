@@ -28,12 +28,11 @@ Para rodar a aplicação utilizando o Docker Compose, siga as instruções abaix
 git clone --recurse-submodules https://github.com/rxvinicius/vini-energia.git && cd vini-energia
 ```
 
-> ⚠️ **IMPORTANTE:** Se você já clonou o repositório sem os submódulos, você pode inicializá-los e atualizá-los usando os seguintes comandos:
-
-```bash
-git submodule init
-git submodule update
-```
+> ⚠️ **IMPORTANTE:** Se você já clonou o repositório **sem os submódulos**, você pode inicializá-los e atualizá-los usando os seguintes comandos:
+>```bash
+>git submodule init
+>git submodule update
+>```
 
 ### 2. Construa e inicie os serviços:
 
@@ -71,5 +70,5 @@ Para rodar a aplicação utilizando o Docker Compose no ambiente local, você pr
 
 O passo a passo para rodar o frontend e o backend localmente estão em seus respectivos repositórios:
 
-- **[📂 Backend](https://github.com/rxvinicius/vini-energia-backend)**
-- **[📂 Frontend](https://github.com/rxvinicius/vini-energia-frontend)**
+- **📂 [Backend](https://github.com/rxvinicius/vini-energia-backend)**
+- **📂 [Frontend](https://github.com/rxvinicius/vini-energia-frontend)**
